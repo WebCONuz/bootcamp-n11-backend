@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>ToDo</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="todo">
+        <h1>TODO APP</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Task Name</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Learn EJS and express</td>
+              <td>20.05.2024, 08:00</td>
+              <td>
+                <div class="action">
+                  <i class="bx bx-edit"></i>
+                  <i class="bx bx-trash delete"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Learn EJS and express</td>
+              <td>20.05.2024, 08:00</td>
+              <td>
+                <div class="action">
+                  <i class="bx bx-edit"></i>
+                  <i class="bx bx-trash delete"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Learn EJS and express</td>
+              <td>20.05.2024, 08:00</td>
+              <td>
+                <div class="action">
+                  <i class="bx bx-edit"></i>
+                  <i class="bx bx-trash delete"></i>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Learn EJS and express</td>
+              <td>20.05.2024, 08:00</td>
+              <td>
+                <div class="action">
+                  <i class="bx bx-edit"></i>
+                  <i class="bx bx-trash delete"></i>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="createTask">
+        <h1>CREATE TASK</h1>
+        <form class="form">
+          <input
+            type="text"
+            class="taskname"
+            placeholder="Task name"
+            required
+          />
+          <select class="status" required>
+            <option value="Start">Start</option>
+            <option value="Completed">Completed</option>
+            <option value="In progress">In Progress</option>
+          </select>
+          <input type="datetime-local" class="deadline" required />
+          <button type="submit">Create task</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
