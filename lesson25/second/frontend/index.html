@@ -15,6 +15,31 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- update modal -->
+    <section class="modal">
+      <div class="updateTask">
+        <i class="bx bx-x"></i>
+        <h1>UPDATE TASK</h1>
+        <form class="updateForm">
+          <input
+            type="text"
+            class="taskname2"
+            placeholder="Task name"
+            required
+          />
+          <input
+            type="text"
+            class="status2"
+            placeholder="Task status"
+            required
+          />
+          <input type="text" class="deadline2" required />
+          <button type="submit">Update task</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- main content -->
     <main class="container">
       <div class="todo">
         <h1>TODO APP</h1>
@@ -24,72 +49,32 @@
               <th>ID</th>
               <th>Task Name</th>
               <th>Date</th>
+              <th>Status</th>
               <th>Action</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Learn EJS and express</td>
-              <td>20.05.2024, 08:00</td>
-              <td>
-                <div class="action">
-                  <i class="bx bx-edit"></i>
-                  <i class="bx bx-trash delete"></i>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Learn EJS and express</td>
-              <td>20.05.2024, 08:00</td>
-              <td>
-                <div class="action">
-                  <i class="bx bx-edit"></i>
-                  <i class="bx bx-trash delete"></i>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Learn EJS and express</td>
-              <td>20.05.2024, 08:00</td>
-              <td>
-                <div class="action">
-                  <i class="bx bx-edit"></i>
-                  <i class="bx bx-trash delete"></i>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Learn EJS and express</td>
-              <td>20.05.2024, 08:00</td>
-              <td>
-                <div class="action">
-                  <i class="bx bx-edit"></i>
-                  <i class="bx bx-trash delete"></i>
-                </div>
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
       <div class="createTask">
         <h1>CREATE TASK</h1>
         <form class="form">
+          <!-- name -->
           <input
             type="text"
             class="taskname"
             placeholder="Task name"
             required
           />
+          <!-- status -->
           <select class="status" required>
             <option value="Start">Start</option>
             <option value="Completed">Completed</option>
             <option value="In progress">In Progress</option>
           </select>
-          <input type="datetime-local" class="deadline" required />
+          <!-- date -->
+          <input type="date" class="deadline" required />
+          <!-- send btn -->
           <button type="submit">Create task</button>
         </form>
       </div>

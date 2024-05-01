@@ -10,6 +10,85 @@ a {
 li {
   list-style: none;
 }
+input,
+button,
+select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+button {
+  background-color: cornflowerblue;
+  color: #fff;
+  border-color: cornflowerblue;
+  margin-bottom: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+/* modal  */
+.modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s all ease;
+}
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+.updateTask {
+  width: 550px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+}
+.updateTask .bx-x {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+.updateTask .bx-x:hover {
+  color: #000;
+}
+.modal .updateTask h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.updateForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* main content  */
 .container {
   width: 75%;
   display: flex;
@@ -29,17 +108,6 @@ li {
   text-align: center;
   margin-bottom: 2rem;
 }
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #ddd;
-}
-th,
-td {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 20px;
-  text-align: left;
-}
 .action i {
   font-size: 1.3rem;
   color: cornflowerblue;
@@ -54,20 +122,4 @@ td {
   display: flex;
   width: 100%;
   flex-direction: column;
-}
-.form input,
-.form button,
-.form select {
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  outline: none;
-  background-color: #fff;
-  border-radius: 5px;
-  margin-bottom: 12px;
-}
-.form button {
-  background-color: cornflowerblue;
-  color: #fff;
-  border-color: cornflowerblue;
-  margin-bottom: 0;
 }
