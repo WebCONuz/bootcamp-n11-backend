@@ -1,0 +1,14 @@
+----------------------- EJS view engine -----------------------
+
+npm i ejs                       - o'rnatish
+views                           - shablonizatorlar saqlanadigan papka
+.ejs                            - shablonizatorlarning kengaytmasi (home.ejs)
+app.set("view engine", "ejs")   - loyihaga shablonizator sifatida ejs ni ko'rsatish
+<% js code %>                   - Shablonizator ichida js kod yozish
+<%= variable %>                 - Shablonizator ichida js o'zgaruvchi qiymatini yuklash
+partials                        - shablonizator qismlari(nav, footer) saqlanadigan papka
+<%- include("url") %>           - shablonizator qismlarini asosiy sahifaga yuklash
+{ title: "Contact" }            - shablonizatorlarga data yoki o'zgaruvchilar xuddi shunday obyekt
+                                  ko'rinishida ular render qilinayotgan joydan berib yuboriladi
+static papka                    - proyektning ixtiyoriy joyidan ko'rinadigan papka.
+express.static("papka")         - proyektda statik papka ko'rsatish.
