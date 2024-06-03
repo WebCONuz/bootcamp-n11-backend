@@ -10,7 +10,7 @@ import authAdmin from "../middlewares/authAdmin.js";
 import { Router } from "express";
 const router = Router();
 
-router.get("/", authAdmin, getAllUsers);
+router.get("/", getAllUsers);
 router.get("/activate", activateUsers);
 router.post("/register", createUsers);
 router.post("/login", loginUsers);
