@@ -1,0 +1,26 @@
+
+2024-06-04T05:32:35.440Z error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (D:\bootcapm lessons\N11\lessons\lesson46-50\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (D:\bootcapm lessons\N11\lessons\lesson46-50\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (D:\bootcapm lessons\N11\lessons\lesson46-50\node_modules\express\lib\response.js:279:15)
+    at ApiError.internal (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-50/errors/ApiError.js:28:51)
+    at loginUsers (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-50/controllers/users.controller.js:139:14)
+2024-06-05T07:20:57.080Z error: unhandledRejection: oldUser is not defined
+ReferenceError: oldUser is not defined
+    at activateUsers (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-51/controllers/users.controller.js:100:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-05T07:21:42.130Z error: unhandledRejection: refresh_token is not defined
+ReferenceError: refresh_token is not defined
+    at activateUsers (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-51/controllers/users.controller.js:104:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-10T00:57:37.583Z error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (D:\bootcapm lessons\N11\lessons\lesson46-51\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (D:\bootcapm lessons\N11\lessons\lesson46-51\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (D:\bootcapm lessons\N11\lessons\lesson46-51\node_modules\express\lib\response.js:279:15)
+    at ApiError.internal (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-51/errors/ApiError.js:28:28)
+    at createArticles (file:///D:/bootcapm%20lessons/N11/lessons/lesson46-51/controllers/articles.controller.js:34:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
