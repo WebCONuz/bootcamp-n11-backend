@@ -1,0 +1,35 @@
+2024-06-12T05:47:57.366Z error: uncaughtException: item is not defined
+ReferenceError: item is not defined
+    at file:///D:/bootcapm%20lessons/N11/lessons/lesson54-56/bot/bot.js:30:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-06-12T05:48:33.179Z error: uncaughtException: item is not defined
+ReferenceError: item is not defined
+    at file:///D:/bootcapm%20lessons/N11/lessons/lesson54-56/bot/bot.js:30:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-06-12T05:48:39.189Z error: uncaughtException: item is not defined
+ReferenceError: item is not defined
+    at file:///D:/bootcapm%20lessons/N11/lessons/lesson54-56/bot/bot.js:30:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-06-12T06:02:59.812Z error: uncaughtException: item is not defined
+ReferenceError: item is not defined
+    at file:///D:/bootcapm%20lessons/N11/lessons/lesson54-56/bot/bot.js:30:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+2024-06-12T06:03:08.769Z error: uncaughtException: item is not defined
+ReferenceError: item is not defined
+    at file:///D:/bootcapm%20lessons/N11/lessons/lesson54-56/bot/bot.js:30:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
