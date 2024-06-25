@@ -1,0 +1,9 @@
+Typescript asoslari-1. 
+    TS tiplari. 
+    Array, 
+    Tuple, 
+    Alias, 
+    Union, 
+    Function, 
+    Literal type, 
+    Object type,	
