@@ -1,0 +1,25 @@
+1. USER 
+    fullname    => protected
+    email       => readonly
+    password    => private
+    age         => public
+
+    getData => () => allData except password
+
+
+2. User => abtract classga aylantiring va undan 2ta meros oling
+
+ADMIN extend USER
+    role            => readonly
+    isSuperAdmin    => private 
+
+    getData => () => allData except password & role
+
+AUTHOR extend USER
+    role        => public
+    isActive    => private 
+
+3. ADMIN classiga setter va getter qo'shish
+
+    set isSuperAdmin() => {}
+    get isSuperAdmin() => {}
