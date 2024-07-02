@@ -1,0 +1,19 @@
+Typescript asoslari-2. 
+    Interface, 
+    Enum, 
+    Geniric, 
+    Typeof, 
+    Keyof, 
+    OOP (
+        Class, 
+        readonly, 
+        constructor, 
+        public, 
+        protected, 
+        private, 
+        static, 
+        getter, 
+        setter, 
+        override
+    )	
+
