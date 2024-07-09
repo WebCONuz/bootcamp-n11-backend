@@ -1,0 +1,6 @@
+1. nestni o'rnatish
+2. cv_maker loyihasini tuzish
+3. lohida env bilan ishlash
+4. postgresga ulanish
+5. CRUD papkani sozdan qilish
+6. CRUD yozish
